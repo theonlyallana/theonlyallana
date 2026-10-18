@@ -1,10 +1,10 @@
 # Hi, I'm Andrew Allan 👋
 
-**Space Systems Engineer · Battery & Vehicle Technologies · ML for Space**
+**Battery Engineer · Cell Industrialisation & Circularity · Space Power Systems**
 
-I'm a space scientist and engineer working at the intersection of satellite systems, machine learning, and advanced vehicle technology — with a long-term mission to contribute to the next generation of space exploration and autonomous systems.
+I'm a battery engineer with an MSc in Space Science & Engineering from UCL, interested in space power systems and simulations — with a long-term mission to contribute to the next generation of space exploration.
 
-Currently a **Graduate Vehicle Technologies Engineer at Jaguar Land Rover** (battery cell engineering, vehicle programme integration), with an **MSc in Space Science & Engineering from UCL** and a **2-month internship at the European Space Agency** specialising in Galileo satellite navigation.
+Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at Jaguar Land Rover**. I joined JLR in 2024 as a Graduate Vehicle Technologies Engineer, and completed an internship at the **European Space Agency** specialising in Galileo satellite navigation.
 
 ---
 
@@ -12,13 +12,13 @@ Currently a **Graduate Vehicle Technologies Engineer at Jaguar Land Rover** (bat
 
 - Processing real NASA planetary science data — Mars topography and MAVEN spacecraft particle distributions
 - Building Python tools for space data analysis and visualisation
-- Deepening knowledge in orbital mechanics, propulsion systems, and embedded systems for space applications
+- Space power systems and simulations
 
 ---
 
 ## 🛰️ Featured Projects
 
-### [`mars-mola-dem`](https://github.com/brownguywhitename/mars-mola-dem)
+### [`mars-mola-dem`](https://github.com/theonlyallana/mars-mola-dem)
 > **Global Mars Digital Elevation Model from NASA MOLA data**
 
 Constructs a global Mars topographic reference frame from NASA MOLA MEGDR products at 463m resolution. Designed as foundational infrastructure for crustal magnetic field and atmospheric particle access analysis in conjunction with MAVEN mission data.
@@ -27,7 +27,7 @@ Constructs a global Mars topographic reference frame from NASA MOLA MEGDR produc
 
 ---
 
-### [`maven-3d-distribution-visualiser`](https://github.com/brownguywhitename/maven-3d-distribution-visualiser)
+### [`maven-3d-distribution-visualiser`](https://github.com/theonlyallana/maven-3d-distribution-visualiser)
 > **3D particle distribution visualiser for NASA's MAVEN spacecraft**
 
 Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instruments into omnidirectional spectrograms and 3D angular distribution plots. Exports to NetCDF for scientific analysis pipelines.
@@ -57,8 +57,8 @@ Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instrument
 | | |
 |---|---|
 | 🏛️ **UCL** | MSc Space Science & Engineering (2023–2024) |
-| 🌍 **ESA** | Internship — Galileo Navigation Programme, Belgium (2024) |
-| 🚗 **Jaguar Land Rover** | Graduate Vehicle Technologies Engineer (2024–present) |
+| 🌍 **ESA** | Internship — Galileo satellite navigation, Belgium (2024) |
+| 🚗 **Jaguar Land Rover** | Project Analyst, Battery Cell Industrialisation and Circularity (2026–present); Graduate Vehicle Technologies Engineer (from 2024) |
 | 🎓 **QMUL** | BSc Economics & Finance (2017–2020) |
 
 ---
@@ -77,6 +77,7 @@ Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instrument
 
 ## 🌱 Currently Learning
 
+- Space power systems and simulations
 - Orbital mechanics & astrodynamics (poliastro, GMAT)
 - Rocket propulsion fundamentals (Sutton RPE)
 - Real-time embedded systems for space applications
