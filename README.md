@@ -35,6 +35,13 @@ Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at
 
 ---
 
+### [`galileo-mission-analysis-toolkit`](https://github.com/theonlyallana/galileo-mission-analysis-toolkit)
+> Python package for Walker Delta notation, constellation availability, and a simplified Galileo-altitude delta-v budget, with a CLI.
+
+**Tech:** Python
+
+---
+
 ## 🔧 Technical Skills
 
 **Languages**
