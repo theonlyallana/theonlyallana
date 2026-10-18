@@ -1,38 +1,37 @@
 # Hi, I'm Andrew Allan 👋
 
-**Space Systems Engineer · Battery & Vehicle Technologies · ML for Space**
+**Battery Engineer · Cell Industrialisation & Circularity**
 
-I'm a space scientist and engineer working at the intersection of satellite systems, machine learning, and advanced vehicle technology — with a long-term mission to contribute to the next generation of space exploration and autonomous systems.
+I'm a battery engineer with an MSc in Space Science & Engineering from UCL, interested in space power systems and simulations — with a long-term mission to contribute to the next generation of space exploration.
 
-Currently a **Graduate Vehicle Technologies Engineer at Jaguar Land Rover** (battery cell engineering, vehicle programme integration), with an **MSc in Space Science & Engineering from UCL** and a **2-month internship at the European Space Agency** specialising in Galileo satellite navigation.
+Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at Jaguar Land Rover**, alongside a **Graduate Vehicle Technologies Engineer** role there since September 2024. In June–July 2024 I interned at the **European Space Agency** in Belgium, on Galileo satellite navigation.
 
 ---
 
 ## 🚀 What I'm Working On
 
-- Processing real NASA planetary science data — Mars topography and MAVEN spacecraft particle distributions
-- Building Python tools for space data analysis and visualisation
-- Deepening knowledge in orbital mechanics, propulsion systems, and embedded systems for space applications
+- Battery cell industrialisation and circularity at Jaguar Land Rover
+- Public Python tools for NASA planetary data — a Mars MOLA DEM mosaic and MAVEN particle-distribution plots
 
 ---
 
 ## 🛰️ Featured Projects
 
-### [`mars-mola-dem`](https://github.com/brownguywhitename/mars-mola-dem)
-> **Global Mars Digital Elevation Model from NASA MOLA data**
+### [`mars-mola-dem`](https://github.com/theonlyallana/mars-mola-dem)
+> **Global Mars DEM mosaic from NASA MOLA MEGDR tiles**
 
-Constructs a global Mars topographic reference frame from NASA MOLA MEGDR products at 463m resolution. Designed as foundational infrastructure for crustal magnetic field and atmospheric particle access analysis in conjunction with MAVEN mission data.
+`build_mola_dem.py` reads four PDS MEGDR label tiles (`megt90n000gb`, `megt90n180gb`, `megt00n000gb`, `megt00n180gb`), applies GDAL's half-pixel PDS offset, builds a VRT, and writes an unscaled GeoTIFF named for the 463 m product. Set `directory` in the script to the folder that holds the labels.
 
-**Tech:** Python · GDAL · NASA PDS · GeoTIFF · VRT mosaicking
+**Tech:** Python · GDAL
 
 ---
 
-### [`maven-3d-distribution-visualiser`](https://github.com/brownguywhitename/maven-3d-distribution-visualiser)
-> **3D particle distribution visualiser for NASA's MAVEN spacecraft**
+### [`maven-3d-distribution-visualiser`](https://github.com/theonlyallana/maven-3d-distribution-visualiser)
+> **MAVEN particle distributions from local calibrated CDFs**
 
-Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instruments into omnidirectional spectrograms and 3D angular distribution plots. Exports to NetCDF for scientific analysis pipelines.
+`maven_3d_particle_distributions.py` loads SWEA, STATIC, and SEP calibrated CDFs with pytplot, plots an omnidirectional spectrogram and 3D angular snapshots, and writes a mean-flux CSV plus an omnidirectional spectrogram NetCDF. Set `base_dir` to the local data folder.
 
-**Tech:** Python · pytplot · xarray · matplotlib · NASA PDS
+**Tech:** Python · NumPy · pandas · pytplot · xarray · matplotlib
 
 ---
 
@@ -41,14 +40,8 @@ Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instrument
 **Languages**
 `Python` `C++` (foundation)
 
-**Space & Data Tools**
-`GDAL` `xarray` `NetCDF` `NASA PDS` `pytplot` `matplotlib` `poliastro` (learning)
-
-**ML & Data Science**
-`scikit-learn` `pandas` `NumPy` · Machine Learning A-Z (Udemy) · ML for Space Systems (UCL MSc)
-
-**Engineering & Systems**
-`Embedded Systems` (WMG Warwick) · `Automotive Systems` (JLR) · `Six Sigma Yellow Belt` · `RF/Radio Communications` (RSGB Licensed)
+**Data & plotting**
+`NumPy` `pandas` `matplotlib` `xarray` `pytplot` `GDAL`
 
 ---
 
@@ -57,8 +50,8 @@ Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instrument
 | | |
 |---|---|
 | 🏛️ **UCL** | MSc Space Science & Engineering (2023–2024) |
-| 🌍 **ESA** | Internship — Galileo Navigation Programme, Belgium (2024) |
-| 🚗 **Jaguar Land Rover** | Graduate Vehicle Technologies Engineer (2024–present) |
+| 🌍 **ESA** | Internship — Galileo satellite navigation, Belgium (Jun–Jul 2024) |
+| 🚗 **Jaguar Land Rover** | Project Analyst, Battery Cell Industrialisation and Circularity (Sep 2026–present); Graduate Vehicle Technologies Engineer (Sep 2024–present) |
 | 🎓 **QMUL** | BSc Economics & Finance (2017–2020) |
 
 ---
@@ -70,16 +63,14 @@ Processes calibrated particle data from MAVEN's SWEA, STATIC, and SEP instrument
 - Six Sigma Yellow Belt — Manufacturing
 - Beginning C++ Programming — Udemy
 - Machine Learning A-Z™: AI, Python & ChatGPT — Udemy
-- OFF-GRID Solar Energy Systems — Udemy
+- OFF-GRID Solar Energy Systems: Design and Operation — Udemy
 - Intermediate Amateur Radio Licence — RSGB (ID: 0-25225)
 
 ---
 
 ## 🌱 Currently Learning
 
-- Orbital mechanics & astrodynamics (poliastro, GMAT)
-- Rocket propulsion fundamentals (Sutton RPE)
-- Real-time embedded systems for space applications
+- Space power systems and simulations
 
 ---
 
