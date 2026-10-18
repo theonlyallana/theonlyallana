@@ -38,7 +38,7 @@ Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at
 ## 🔧 Technical Skills
 
 **Languages**
-`Python`
+`Python` `C++` (foundation)
 
 **Data & plotting**
 `NumPy` `pandas` `matplotlib` `xarray` `pytplot` `GDAL`
@@ -58,8 +58,13 @@ Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at
 
 ## 📡 Certifications
 
+- Robust Automotive Embedded Systems — WMG, University of Warwick
+- Smart, Connected and Autonomous Vehicles — WMG, University of Warwick
+- Six Sigma Yellow Belt — Manufacturing
+- Beginning C++ Programming — Udemy
 - Machine Learning A-Z™: AI, Python & ChatGPT — Udemy
 - OFF-GRID Solar Energy Systems: Design and Operation — Udemy
+- Intermediate Amateur Radio Licence — RSGB (ID: 0-25225)
 
 ---
 
