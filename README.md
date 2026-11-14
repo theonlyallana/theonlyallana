@@ -1,8 +1,8 @@
 # Hi, I'm Andrew Allan 👋
 
-**Battery Engineer · Cell Industrialisation & Circularity**
+**Battery Engineer · Cell Industrialisation & Circularity · Systems Engineering (MBSE)**
 
-I'm a battery engineer with an MSc in Space Science & Engineering from UCL, interested in space power systems and simulations — with a long-term mission to contribute to the next generation of space exploration.
+I'm a battery engineer with an MSc in Space Science & Engineering from UCL, interested in space power systems and simulations — with a long-term mission to contribute to the next generation of space exploration. I'm building my systems engineering practice through model-based work: requirements, architecture and verification in SysML v2.
 
 Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at Jaguar Land Rover**, alongside a **Graduate Vehicle Technologies Engineer** role there since September 2024. In June–July 2024 I interned at the **European Space Agency** in Belgium, on Galileo satellite navigation.
 
@@ -11,11 +11,39 @@ Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at
 ## 🚀 What I'm Working On
 
 - Battery cell industrialisation and circularity at Jaguar Land Rover
+- A SysML v2 model of a lunar rover road study, traced from requirements to verification
 - Public Python tools for NASA planetary data — a Mars MOLA DEM mosaic and MAVEN particle-distribution plots
 
 ---
 
 ## 🛰️ Featured Projects
+
+### [`lunar-road-mbse`](https://github.com/theonlyallana/lunar-road-mbse)
+> **SysML v2 model of a VIPER-class rover trip with and without a lunar road**
+
+Logical architecture with seven defined interfaces, 27 requirements written as checkable constraints, a rover operating mode state machine, road preset variants, a 1:10 tabletop rover's physical architecture, and 14 verification cases. A script lints the model and generates the requirements traceability matrix.
+
+**Tech:** SysML v2 · MBSE · Python
+
+---
+
+### [`space-power-sims`](https://github.com/theonlyallana/space-power-sims)
+> **Battery and power system simulations for space, using only public data**
+
+Small, fully explained Python simulations: lunar night survival, orbit ageing, thermal runaway, mass, cell screening and Moon base power.
+
+**Tech:** Python
+
+---
+
+### [`pyshield-smr`](https://github.com/theonlyallana/pyshield-smr)
+> **Point-kernel radiation shielding demonstrator for small modular reactors**
+
+Python shielding calculations with tests and CI.
+
+**Tech:** Python
+
+---
 
 ### [`mars-mola-dem`](https://github.com/theonlyallana/mars-mola-dem)
 > **Global Mars DEM mosaic from NASA MOLA MEGDR tiles**
@@ -50,6 +78,9 @@ Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at
 **Data & plotting**
 `NumPy` `pandas` `matplotlib` `xarray` `pytplot` `GDAL`
 
+**Systems engineering**
+`SysML v2` `MBSE` `Requirements traceability` `Verification planning` `Interface definition`
+
 ---
 
 ## 🎓 Background
@@ -78,6 +109,7 @@ Currently a **Project Analyst, Battery Cell Industrialisation and Circularity at
 ## 🌱 Currently Learning
 
 - Space power systems and simulations
+- SysML v2 and model-based systems engineering
 
 ---
 
